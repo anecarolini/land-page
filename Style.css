@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&display=swap');
+@media (min-width: 768px) {
+    h1{
+        font-size: 4.3vw; /* viewport */
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    h1{
+        font-size: 4.3vh; /* viewport */
+    }
+}
+
+.banner-home {
+    background-image: url(imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    font-family: 'Bebas Neue';
+    height: 80PX;
+}
+
+.bg-red {
+    background-color: #f9003c;
+}
+
+li {
+    margin: 20px;
+}
+
+.borda-senai {
+    background-color: #a058ff;
+    border: 1px solid #080324;
+    min-width: 80px;
+}
+
+h1 {
+    font-family: 'bebas neue', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.banner-home {
+    background-image: url(imagem-fundo-banner.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-home .row {
+    height: 768px;
+}
+
+hr {
+    border: 1px solid #ffaf00;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Courier Prime', monospace;
+    color: #df093d;
+    font-size: 60px;
+}
+
+body {
+    background-color: #080324;
+}
+
+.linha {
+    font-size: 19px;
+    color: white;
+}
+
+h4 {
+    color: #ffaf00;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier Prime', monospace;
+    margin-top: 75px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #f9003d;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.secao-locais {
+    color: white;
+    background-image: url(imagem-fundo-ranking.jpg);
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.secao-locais .row {
+    min-height: 330px;
+}
+
+.box-main {
+    width: 250px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.box-local {
+    border: 2px #a058ff solid;
+    height: 90px;
+    color: #a058ff;
+}
+
+.order-last {
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.text-center {
+    margin-top: 30px;
+    font-family: 'Courier Prime', monospace;
+}
+
+h5 {
+    color: #f4b027;
+}
+
+.font-endereco {
+    color: #f4b027;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.borda-endereco {
+    border: 2px #a058ff solid;
+    font-size: 30px;
+    color: #a058ff;
+}
+
+.position-absolute {
+    top: 0;
+    right: 26px;
+}
+
+footer {
+    background-color: #f9003d;
+    margin-top: 50px;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 19px;
+}
